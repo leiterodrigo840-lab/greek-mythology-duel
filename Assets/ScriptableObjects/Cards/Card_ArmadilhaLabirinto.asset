@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85846bce1fc07e439ad7a2e6184cfd1, type: 3}
+  m_Name: Card_ArmadilhaLabirinto
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: Card_ArmadilhaLabirinto
+  displayName: Armadilha do Labirinto
+  type: 0
+  faction: 0
+  rarity: 0
+  etherCost: 2
+  attack: 0
+  health: 0
+  hasProvoke: 0
+  hasHaste: 0
+  effectText: "Quando um Ser inimigo atacar, o ataque \xE9 anulado.\t"
+  artwork: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 4478a6bbdb92c4f44b1673a64f9fa89e, type: 2}
+  ascensionTarget: {fileID: 0}
+  ascensionCost: 2
