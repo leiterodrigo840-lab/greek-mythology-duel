@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37f4437381978149acf3dc91c676db6, type: 3}
+  m_Name: Deck_Teste
+  m_EditorClassIdentifier: Assembly-CSharp::DeckData
+  deckName: 
+  cards:
+  - {fileID: 11400000, guid: f041f436c6d1b1d488096199315357a3, type: 2}
+  - {fileID: 11400000, guid: c8425c731d1dfbe4faca655158d69130, type: 2}
+  - {fileID: 11400000, guid: 582b9236c10be4442b72b842dafc2f60, type: 2}
+  - {fileID: 11400000, guid: 074268c5015e0bf4895ea1fddbb4315d, type: 2}
+  - {fileID: 11400000, guid: 6c3e676ab67c6c64da57abb1a6f5fd30, type: 2}
+  - {fileID: 11400000, guid: 3d2d27937335a5248a7cb9a274f7cffe, type: 2}
+  - {fileID: 11400000, guid: 300525dc55d78a44bb061bbe83f556bc, type: 2}
+  - {fileID: 11400000, guid: f937f4b4242371147afba97ff901ecb7, type: 2}
+  - {fileID: 11400000, guid: cf3c496232ea96244bb216d8d260bd1e, type: 2}
+  - {fileID: 11400000, guid: 0e6023e80e927454aa86589cce9a34f3, type: 2}
+  - {fileID: 11400000, guid: 48922c18c16fcd24aa906b77273bae27, type: 2}
+  - {fileID: 11400000, guid: a562c6ee3315d564d9481f5be6a6478d, type: 2}
+  - {fileID: 11400000, guid: c4beddd978df6434588daaeb4faf8e38, type: 2}
+  - {fileID: 11400000, guid: 69f8edda746620e449cbb2aee011fde1, type: 2}
+  - {fileID: 11400000, guid: 44b43d4ce7ddfd94982d42366b25b54c, type: 2}
+  - {fileID: 11400000, guid: 9f93ebb7a0ebcc146a5b8f99df9504c1, type: 2}
+  - {fileID: 11400000, guid: 88d10322775bd354b9d0b16e19d647a3, type: 2}
+  - {fileID: 11400000, guid: e5dec7706b2432246ac24377d0afbecb, type: 2}
+  - {fileID: 11400000, guid: 55e5e560c80ff4944b72bb57870919f7, type: 2}
+  - {fileID: 11400000, guid: a15d50c6a713ae24da03a1588db5fe9c, type: 2}
+  - {fileID: 11400000, guid: 1ca9ffd8c92352344b934f24b3e913a2, type: 2}
+  - {fileID: 11400000, guid: 622436e0e3871d9429855c40e8491366, type: 2}
+  - {fileID: 11400000, guid: 78bfe941c79cc494db82f40ee79c6c73, type: 2}
+  - {fileID: 11400000, guid: 292eba84ec47898418511b0ecfc9756d, type: 2}
+  - {fileID: 11400000, guid: 342b2b5a471152e4890dacc4ac401f11, type: 2}
+  - {fileID: 11400000, guid: 7e281e755701a9f4285b2a700b88921d, type: 2}
+  library: {fileID: 0}
+  recipe: 

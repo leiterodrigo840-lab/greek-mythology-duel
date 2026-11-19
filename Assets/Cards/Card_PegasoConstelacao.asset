@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85846bce1fc07e439ad7a2e6184cfd1, type: 3}
+  m_Name: Card_PegasoConstelacao
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: Card_PegasoConstelacao
+  displayName: "P\xE9gaso, Constela\xE7\xE3o\tHeroico"
+  type: 0
+  faction: 3
+  rarity: 2
+  etherCost: 6
+  attack: 4
+  health: 4
+  hasProvoke: 0
+  hasHaste: 0
+  hasFlying: 1
+  effectText: "oo. No fim do seu turno, cure 1 de Ess\xEAncia."
+  artwork: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: db10eca55868751488ef5d87f5312d98, type: 2}
+  ascensionTarget: {fileID: 0}
+  ascensionCost: 2

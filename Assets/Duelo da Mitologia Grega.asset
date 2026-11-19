@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db105fd79ce5164faa426ae56f49193, type: 3}
+  m_Name: Duelo da Mitologia Grega
+  m_EditorClassIdentifier: Assembly-CSharp::CampaignData
+  campaignTitle: Duelo da Mitologia Grega
+  introText: "Voc\xEA \xE9 um Or\xE1culo rec\xE9m-desperto, capaz de alterar o Fio
+    do Destino. Cada duelo muda o mundo: do Caos primordial ao Olimpo, e do Olimpo
+    \xE0 \xFAltima transforma\xE7\xE3o de H\xE9racles."
+  endingText: "O Fio do Destino foi mudado e uma nova era come\xE7a. Os mitos seguir\xE3o
+    sendo contados, e voc\xEA foi parte deles."
+  playerStartDeck: {fileID: 11400000, guid: 7a8dfcf0e067cd646bc981e4bfa42735, type: 2}
+  chapters:
+  - {fileID: 11400000, guid: a8cf9d26c8c60eb4b8ca42f51df8a391, type: 2}
+  - {fileID: 11400000, guid: 8c140b7ece765a848a557bb2e98c2873, type: 2}
+  - {fileID: 11400000, guid: 365663a7e33a7ac4d996eb5db69ecbe9, type: 2}
+  - {fileID: 11400000, guid: bc685705265d1f14eb4df490c0b3c9a3, type: 2}
+  - {fileID: 11400000, guid: 2cd08355eb1e1544a849b24a85b0f8ce, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37f4437381978149acf3dc91c676db6, type: 3}
+  m_Name: Deck_Mecanicas
+  m_EditorClassIdentifier: Assembly-CSharp::DeckData
+  deckName: Deck_Teste
+  cards: []
+  library: {fileID: 11400000, guid: a73b0e75d9ac6cb4eac9cf13473213bc, type: 2}
+  recipe: 'Card_HarpiaVeloz:6
+
+    Card_GuardiaoBronze:4
+
+    Card_TitaAprendiz:4
+
+    Card_FilhoteHidra:3
+
+    Card_SatiroFoliao:3'
