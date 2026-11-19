@@ -17,6 +17,11 @@ public class CardData : ScriptableObject
     [SerializeField, Min(0)] private int attack = 0;
     [SerializeField, Min(0)] private int health = 1;
 
+    [Header("Palavras-chave")]
+    [SerializeField] private bool hasProvoke;
+    [SerializeField] private bool hasHaste;
+    [SerializeField] private bool hasFlying;
+
     [Header("Texto e Arte")]
     [SerializeField, TextArea(2, 4)] private string effectText;
     [SerializeField] private Sprite artwork;
@@ -31,12 +36,16 @@ public class CardData : ScriptableObject
     // Leitura pública (outros scripts só leem, não alteram).
     public string Id => id;
     public string DisplayName => displayName;
+    public string ShownName => string.IsNullOrWhiteSpace(displayName) ? name : displayName;
     public CardType Type => type;
     public Faction Faction => faction;
     public Rarity Rarity => rarity;
     public int EtherCost => etherCost;
     public int Attack => attack;
     public int Health => health;
+    public bool HasProvoke => hasProvoke;
+    public bool HasHaste => hasHaste;
+    public bool HasFlying => hasFlying;
     public string EffectText => effectText;
     public Sprite Artwork => artwork;
     public IReadOnlyList<CardEffect> Effects => effects;
@@ -62,7 +71,7 @@ public class CardData : ScriptableObject
     }
 
 #if UNITY_EDITOR
-    // Métodos usados apenas pelo script de criação em lote (só existem no editor).
+    // Métodos usados apenas pelo editor (não entram no build).
     public void EditorSetup(string newId, string newName, CardType newType, Faction newFaction,
         Rarity newRarity, int newCost, int newAttack, int newHealth, string newEffectText)
     {
